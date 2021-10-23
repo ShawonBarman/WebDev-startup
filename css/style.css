@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar style code starting here */
+.navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 3px solid #00ADF3;
+}
+
+.logo, .logo span{
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+}
+
+.logo span{
+    color: #00ADF3;
+}
+
+/* navbar style code end here */
+/* header style code starting here */
+.header{
+    height: 95vh;
+}
+.header .header-div img{
+    background-position: center;
+    background-size: cover;
+    width: 55%;
+    margin-right: 1.5rem;
+}
+.header-div{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.3rem;
+    padding-left: 1.3rem;
+}
+.header-h1{
+    padding-right: 10rem;
+}
+.btn{
+    background-color: #00ADF3;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    font-size: 1rem;
+}
+/* header style code end here */
+/* services style code starting here */
+.container{
+    margin: 10px auto;
+    width: 74rem;
+}
+.main-services{
+    display: flex;
+    flex: 1;
+}
+.service-p{
+    font-size: 2rem;
+    text-align: center;
+    color: #00ADF3;
+    font-weight: bolder;
+}
+.service-h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 10rem;
+    margin-bottom: 2rem;
+}
+.service-cards-h3{
+    text-align: center;
+    padding-bottom: 1.6rem;
+}
+.service-cards-p{
+    font-size: 1rem;
+    margin: 10px auto;
+    padding-bottom: 1.6rem;
+}
+.cards{
+    text-align: center;
+    padding: 1.3rem;
+    border: 1.5px solid #c2bdc7;
+    margin-left: 1rem;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+.cards:hover{
+    border: 3px solid #00ADF3;
+}
+.cards i{
+    color: #00ADF3;
+    padding-bottom: 2rem;
+}
+/* services style code end here */
+/* about style code starting here */
+#about{
+    margin: 4rem auto;
+    width: 80rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img{
+    width: 40rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.about-div{
+    margin-left: 4rem;
+    margin-top: 4.5rem;
+}
+
+.about-p{
+    font-size: 1.5rem;
+    color: #00ADF3;
+    font-weight: bolder;
+    margin-bottom: 0.6rem;
+}
+
+.about-h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-p2{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+/* about style code end here */
+/* work style code starting here */
+#work{
+    margin: 4rem auto;
+    width: 80rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.work-div{
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.work-image{
+    width: 40rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#work i{
+    color: #00ADF3;
+}
+/* work style code end here */
+/* team style code starting here */
+#team{
+    height: 90vh;
+}
+.main-team{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.team{
+    text-align: center;
+}
+.team img{
+    width: 16rem;
+}
+.team-h3{
+    margin-top: 1rem;
+}
+/* team style code end here */
+/* contact style code starting here */
+input{
+    height: 3.5rem;
+    width: 50rem;
+    border: 3px solid #00ADF3;
+    margin-bottom: 1.3rem;
+    border-radius: 5rem;
+    padding:0 2rem;
+    font-size: 1.2rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+.form-h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* contact style code end here */
+/* footer style code starting here */
+footer{
+    margin-top: 2rem;
+	background: #1e2021;
+	color: white;
+	font-size: 1.1rem;
+    height: 20vh;
+    text-align: center;
+    padding-top: 2.5rem;
+
+}
+/* footer style code end here */
